@@ -1,9 +1,10 @@
 {
-    "dev": {
-        "app_function": "app.__init__.app",
-        "profile_name": "personal_aws",
-        "project_name": "authservice",
-        "runtime": "python3.9",
-        "s3_bucket": "zappa-auth"
-    }
+  "dev": {
+    "app_function": "app.__init__.app",
+    // "profile_name": "personal_aws",      Removing this ensures that we will use environment variables instead of the aws credentials file
+    "project_name": "authservice",
+    "runtime": "python3.9",
+    "s3_bucket": "bens-zappa-auth",
+    "aws_region": "us-west-2"
+  }
 }
