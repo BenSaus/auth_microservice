@@ -1,0 +1,9 @@
+{
+    "dev": {
+        "app_function": "app.__init__.app",
+        "profile_name": "personal_aws",
+        "project_name": "authservice",
+        "runtime": "python3.9",
+        "s3_bucket": "zappa-auth"
+    }
+}
